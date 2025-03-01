@@ -1,4 +1,38 @@
-This code is a single threaded application which runs Simulations of the card game Liars Deck from the video game on steam Liars Bar. 
-This was used to see the exact probabilities of how many cards a player should expect to get. 
-it gets this information by tallying all the results from 0 - 5 Valid Cards.
-for Rules on Liars Deck you can check the official steam page or look online. 
+# Liar's Deck Valid Card Simulation
+
+**Liar's Deck Valid Card Simulation** is a single-threaded C++ application designed to analyze the probabilities in the card game *Liar's Deck*, featured in the Steam game *Liar's Bar*. This simulation helps determine the expected number of valid cards a player may receive by running large-scale simulations and tallying results across different possible outcomes.
+
+---
+
+## Features
+
+- **Simulates Liar's Deck games** to analyze probability distributions.
+- **Counts occurrences** of hands containing 0 to 5 valid cards.
+- **Provides statistical insights** into expected player outcomes.
+- **Efficient single-threaded execution** optimized for accurate results.
+
+---
+
+## Installation & Usage
+
+### Compilation
+To compile the simulation, run the Makefile using the command `make` 
+
+### Running the Simulation
+Once compiled, execute the program from the terminal(example runs simulation 500 times):
+
+`./LiarsDeckValidCardSimulation.exe 500`
+
+The program will output statistical data summarizing the results of the simulations.
+
+---
+
+## Additional Information
+- For the official rules of *Liar's Deck*, refer to the *Liar's Bar* Steam page or online sources.
+- This project is purely for probability analysis and does not replicate the full game mechanics.
+
+---
+
+## Author
+- **Zane Miller (Surai)** - Creator & Maintainer  
+  [GitHub Profile](https://github.com/SURAlSA)
